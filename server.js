@@ -18,9 +18,9 @@ app.prepare()
     server.use(bodyParser.json())
 
     cloudinary.config({
-      cloud_name: 'xxxxxx',
-      api_key: 'xxxxxxx',
-      api_secret: 'xxxxxxx',
+      cloud_name: 'ddmeofkzu',
+      api_key: '833162614866536',
+      api_secret: '7bChKulxDSPFbLgqSxIsSv3Gcew',
     })
 
     const storage = multer.memoryStorage()
